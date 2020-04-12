@@ -21,7 +21,7 @@ RUN npm i --registry=https://registry.npm.taobao.org
 COPY . /usr/src/node-app/jd
 
 # 暴露容器端口
-EXPOSE 8888
+# EXPOSE 8888
 
 # 启动node应用
 CMD npm start
