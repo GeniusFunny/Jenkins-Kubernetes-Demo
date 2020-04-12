@@ -1,0 +1,26 @@
+{
+  "name": "jenkins-kubernetes-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeniusFunny/Jenkins-Kubernetes-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeniusFunny/Jenkins-Kubernetes-Demo/issues"
+  },
+  "homepage": "https://github.com/GeniusFunny/Jenkins-Kubernetes-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8"
+  }
+}
