@@ -13,4 +13,4 @@ router.get('/', async (ctx, next)=> {
 app
   .use(router.routes())
   .use(router.allowedMethods())
-  .listen(8888)s
+  .listen(8888)
