@@ -6,7 +6,7 @@ const app = new Koa();
 const router = new Router();
 
 router.get('/', async (ctx, next)=> {
-  ctx.body = 'Hello, Koa v1.2';
+  ctx.body = '演示专用';
   await next();
 })
 
