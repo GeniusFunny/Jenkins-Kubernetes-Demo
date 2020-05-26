@@ -6,9 +6,9 @@ const app = new Koa();
 const router = new Router();
 
 router.get('/', async (ctx, next)=> {
-  ctx.body = '演示专用 hhhhhh';
+  ctx.body = `老师下午好`;
   await next();
-})
+});
 
 app
   .use(router.routes())
