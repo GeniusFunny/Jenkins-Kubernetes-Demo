@@ -9,14 +9,10 @@ router.get('/', async (ctx, next)=> {
   ctx.body = `老师下午好`;
   await next();
 });
-router.get('/hello', async (ctx,next) => {
-  ctx.body = 'hello,world';
-  await next();
-});
-router.get('/good', async (ctx, next) => {
-  ctx.body = 'good job';
-  await next();
-});
+// router.get('/hello', async (ctx,next) => {
+//   ctx.body = 'hello,world';
+//   await next();
+// });
 
 app
   .use(router.routes())
