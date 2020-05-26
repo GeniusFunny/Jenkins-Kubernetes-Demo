@@ -12,7 +12,11 @@ router.get('/', async (ctx, next)=> {
 router.get('/hello', async (ctx,next) => {
   ctx.body = 'hello,world';
   await next();
-})
+});
+router.get('/good', async (ctx, next) => {
+  ctx.body = 'good job';
+  await next();
+});
 
 app
   .use(router.routes())
