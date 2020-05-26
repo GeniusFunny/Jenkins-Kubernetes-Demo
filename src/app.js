@@ -11,7 +11,7 @@ router.get('/', async (ctx, next)=> {
 });
 router.get('/hello', async (ctx,next) => {
   ctx.body = 'hello,world';
-  await hello();
+  await next();
 })
 
 app
